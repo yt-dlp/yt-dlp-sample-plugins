@@ -6,7 +6,7 @@ See [yt-dlp plugins](https://github.com/yt-dlp/yt-dlp#plugins) for more details
 ## Installation
 You can install this package with pip:
 ```
-python3 -m pip install -U https://github.com/yt-dlp/ytdlp-sample-plugins/archive/master.zip
+python3 -m pip install -U https://github.com/yt-dlp/yt-dlp-sample-plugins/archive/master.zip
 ```
 
 See [yt-dlp installing plugins](https://github.com/yt-dlp/yt-dlp#installing-plugins) for the many other ways this can be installed.
