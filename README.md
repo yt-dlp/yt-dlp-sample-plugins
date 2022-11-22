@@ -16,14 +16,14 @@ See [yt-dlp installing plugins](https://github.com/yt-dlp/yt-dlp#installing-plug
 
 ### Run and debug configuration
 1. Set your IDE's run configuration to run the `yt_dlp` Python module.
-2. Add your project's root directory containing `ytdlp_plugins` to `PYTHONPATH` environment variable (this may not be necessary with some IDE run configurations)
-3. The `ytdlp_plugins` folder should be automatically picked up by yt-dlp (run with `-v` to check)
+2. Add your project's root directory containing `yt_dlp_plugins` to `PYTHONPATH` environment variable (this may not be necessary with some IDE run configurations)
+3. The `yt_dlp_plugins` folder should be automatically picked up by yt-dlp (run with `-v` to check)
 
 
 ### Importing extractors from other plugins
 
 ```py
-from ytdlp_plugins.extractor.example import ExampleIE
+from yt_dlp_plugins.extractor.example import ExampleIE
 ```
 
 This works regardless of where the `example` plugin is installed on the system, as long as yt-dlp can find it. 
