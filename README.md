@@ -32,3 +32,16 @@ Your IDE may not be able to resolve the import, but it will work at runtime.
 If the user does not have the `example` plugin installed, the import will fail and your extractor will not be imported (but yt-dlp will continue to run). 
 
 The same goes for any other plugin type.
+
+### Poetry configuration
+
+In pyproject.toml:
+
+```
+[tool.poetry]
+...
+packages = [{ include = "yt_dlp_plugins" }]
+...
+```
+
+See the [Poetry documentation](https://python-poetry.org/docs/pyproject/#packages) for more details.
