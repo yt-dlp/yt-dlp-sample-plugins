@@ -1,10 +1,11 @@
-from .sample import SamplePluginIE
+from yt_dlp.extractor.youtube import YoutubeIE
 
-# ⚠ When overriding yt-dlp's extractors, note that the extractor internals
-# may change without warning, breaking the plugin
+# ⚠ Other plugins cannot be overridden using this method
+# ⚠ The extractor internals may change without warning, breaking the plugin
 
 
-class _SampleOverridePluginIE(SamplePluginIE, plugin_name='O'):
+
+class _SampleOverridePluginIE(YoutubeIE, plugin_name='sample'):
     def _real_extract(self, url):
-        self.to_screen(f'Passing through {type(self).__name__}')
+        self.to_screen('Passing through SampleOverridePluginIE')
         return super()._real_extract(url)
