@@ -30,8 +30,8 @@ For information regarding the plugin spec, see the [plugins section of the yt-dl
 
 ### Run and debug configuration
 1. Set your IDE's run configuration to point to the `yt_dlp` Python module.
-   2. Add your project's root directory containing `yt_dlp_plugins` to `PYTHONPATH` environment variable (this may not be necessary with some IDE run configurations)
-   3. The `yt_dlp_plugins` folder should be automatically picked up by yt-dlp (run with `-v` to check)
+2. Add your project's root directory containing `yt_dlp_plugins` to `PYTHONPATH` environment variable (this may not be necessary with some IDE run configurations)
+3. The `yt_dlp_plugins` folder should be automatically picked up by yt-dlp (run with `-v` to check)
 
 ### Importing extractors from other plugins
 
