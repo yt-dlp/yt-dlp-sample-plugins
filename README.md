@@ -17,4 +17,4 @@ See [installing yt-dlp plugins](https://github.com/yt-dlp/yt-dlp#installing-plug
 
 ## Development
 
-See [PLUGIN DEVELOPMENT](PLUGIN_DEVELOPMENT.md) for instructions on how to develop plugins.
+See the [Plugin Development](https://github.com/yt-dlp/yt-dlp/wiki/Plugin%20Development) section of the yt-dlp wiki.
