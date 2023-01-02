@@ -50,7 +50,7 @@ The same applies for any other plugin type.
 
 If you want your plugin to be installable with [poetry](https://python-poetry.org/), you can add the following to your `pyproject.toml`:
 
-```toml
+```
 [tool.poetry]
 ...
 packages = [{ include = "yt_dlp_plugins" }]
