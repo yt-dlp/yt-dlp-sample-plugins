@@ -1,5 +1,3 @@
-# coding: utf-8
-
 # ⚠ Don't use relative imports
 from yt_dlp.extractor.common import InfoExtractor
 
@@ -13,7 +11,6 @@ from yt_dlp.extractor.common import InfoExtractor
 # ⚠ The class name must end in "IE"
 class SamplePluginIE(InfoExtractor):
     _WORKING = False
-    IE_DESC = False
     _VALID_URL = r'^sampleplugin:'
 
     def _real_extract(self, url):

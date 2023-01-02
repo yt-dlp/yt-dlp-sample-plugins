@@ -1,12 +1,11 @@
-# coding: utf-8
-
 # ⚠ Don't use relative imports
 from yt_dlp.postprocessor.common import PostProcessor
-
 
 # ℹ️ See the docstring of yt_dlp.postprocessor.common.PostProcessor
 
 # ⚠ The class name must end in "PP"
+
+
 class SamplePluginPP(PostProcessor):
     def __init__(self, downloader=None, **kwargs):
         # ⚠ Only kwargs can be passed from the CLI, and all argument values will be string
