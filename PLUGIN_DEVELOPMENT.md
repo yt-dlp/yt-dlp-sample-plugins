@@ -12,14 +12,16 @@ For information regarding the plugin spec, see the [plugins section of the yt-dl
 3. [Configure your IDE's run and debug configuration](#Run-and-debug-configuration) (optional)
 4. Write your plugin code in the `yt_dlp_plugins/<type>` folder (where type is either `extractor` or `postprocessor`). See the sample plugins provided and the [yt-dlp developer instructions](https://github.com/yt-dlp/yt-dlp/blob/master/CONTRIBUTING.md#developer-instructions) for more details. 
     - Some instructions given will not apply to plugin development, but should give you a good idea on what to do. 
-    - The instructions on testing extractors work the same with extractor plugins.
+    - The method for testing extractor plugins is the same as with built-in ones.
 5. [Configure your plugin package](#Configuring-your-plugin-package)
 6. [Add](https://git-scm.com/docs/git-add) the new files, [commit](https://git-scm.com/docs/git-commit) them and [push](https://git-scm.com/docs/git-push) the result, like this:
-```git
- $ git add yt_dlp_plugins setup.cfg README.md
- $ git commit -m 'Add yourplugin plugin'
- $ git push origin master
-```
+    ```git
+     $ git add yt_dlp_plugins setup.cfg README.md
+     $ git commit -m 'Add yourplugin plugin'
+     $ git push origin master
+    ```
+
+---
 
 ### Configuring your plugin package
 
