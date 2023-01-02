@@ -5,7 +5,7 @@ See [yt-dlp plugins](https://github.com/yt-dlp/yt-dlp#plugins) for more details.
 
 ## Installation
 
-Requires yt-dlp `2023.01.XX` or above
+Requires yt-dlp `2023.01.01` or above
 
 You can install this package with pip:
 ```
