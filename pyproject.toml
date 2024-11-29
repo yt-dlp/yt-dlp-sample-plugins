@@ -1,6 +1,22 @@
 [build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
-[tool.distutils.bdist_wheel]
-universal = true
+[project]
+name = "yt-dlp-sample-plugins"
+version = "2023.01.02"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = ["yt-dlp", "yt-dlp-plugin"]
+authors = [
+  { name = "John Doe", email = "johndoe@example.com" },
+]
+dependencies = []
+
+[tool.hatch.env.default]
+installer = "uv"
+path = ".venv"
+
+[tool.hatch.build.targets.wheel]
+packages = ["yt_dlp_plugins"]
